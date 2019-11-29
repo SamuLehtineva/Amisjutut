@@ -1,0 +1,18 @@
+Työajankirjausjärjestelmän käyttöohje
+
+1.Kirjautuminen
+	Login sivulla voi kirjautua sisään jos sinulla on tunnukset luotuna.
+	"Unohtuiko salasana?" napilla voit muuttaa salasanaasi, kunhan muistat sähköpostisi.
+	Nav baarista löytyy "Rekisteröi uusi käyttäjä" nappi joka tekee juuri sen.
+	
+2.Etusivu
+	Nav baarista löytyy "Tuki" nappi jota painamalla voi lähettää ylläpitäjälle viestin.
+	Nav baarista löytyy myös "Kirjaudu ulos" ja "Rekisteröi uusi käyttäjä" napit jotka tekevät mitä odotat niiden tekevän.
+	Painamalla kalenterissa olevaa kuukauden nimeä voit vaihtaa kuukauden haluamaasi.
+	Kalenterissa päivät joilla on tunteja on korostettu vihreällä. Tämän hetkinen päivä näkyy punaisella.
+	Painamalla kalenterissa tiettyä päivää saat kyseisen päivän tunnit auki. Jos päivällä ei ole tunteja niitä voi lisätä helposti painamalla "Lisää tunti" nappia.
+	Tuntien tietojen vieressä nakyvät napit "Poista" ja "Muokkaa" jotka tekevät sitä mitä luulisit.
+	"Lataa excel tiedostona" nappi vie sinut sivulle jossai voit valita aikavälin jolta haluat ladata tuntien tiedot.
+	
+3.Admin
+	Jos olet kirjautunut admin tunnuksilla etusivulla näkyy vasemmassa reunassa linkkejä sivuille josta pääset muokkaamaan, poistamaan tai lisäämään tietoja.

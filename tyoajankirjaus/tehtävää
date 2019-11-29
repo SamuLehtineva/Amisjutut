@@ -1,0 +1,41 @@
+kellonaika
+- ei pakollinen
+
+table - responsiivisuus
+- tablen leveys=566
+
+kalenteri:
+- miten tulisi näyttää
+- 
+
+excel
+- alku ja loppupäivä
+
+
+
+29.11.2018
+opettaja
+- kun kirjautuu niin oletuksena tämä kuukausi näkyvissä
+- korosta tämä päivä kalenterissa (väri tms)
+- linkit mukaan
+- kun muokkaa niin silloin ei tarvitse näyttää 
+
+4.12.2018.
+csv
+- päivien valinta
+--> tiedot taulukkoon ja ylös linkki lataa
+--> tiedostosta tID, oID, tyyppiID pois
+
+salasanan palauttaminen
+- käyttäjän salasanan palauttaminen
+- suositus että lähettää käyttäjälle linkin jonka avulla voi resetoida salasanan (syöttää uuden)
+http://talkerscode.com/webtricks/password-reset-system-using-php.php
+
+admin - toimipaikkojen lisäys
+
+kalenterin taustakuva kuukaudesta riippuen erilainen
+- joko 12 kuvaa tai esim. neljä kuvaa / vuosi
+12.12
+inputtien suojaus
+14.12
+rekisteröintiin popup
