@@ -1,0 +1,1 @@
+<img src="./kuvat/rakenneharjoitus4.jpg" alt="kuva">

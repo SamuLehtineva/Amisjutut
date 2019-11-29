@@ -1,0 +1,1 @@
+SELECT * FROM tilaus LEFT JOIN varaus ON tilaus.varausID = varaus.varausID LEFT JOIN extratieto ON extratieto.varausID = varaus.varausID

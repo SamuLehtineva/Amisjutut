@@ -1,0 +1,715 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,400i,500,500i,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,%20600,700,800,900%20font-family:%20%27Kanit%27,%20sans-serif;');
+
+/*
+The Following CSS is a magical piece of [REDACTED].
+Mainly written by Petteri Linnero, Toni Simoska and Samu Lehtineva.
+You may edit what you want, but bare in mind this thing is kept together with hope and ducktape.
+
+Hours wasted optimizing this: 11
+
+*/
+
+
+
+.btn-default {
+	color: #D01717;
+	font-family: 'Open Sans', sans-serif;
+	background-color: transparent;
+	border: 2px solid #D01717;
+	padding: 12px 24px;
+	font-size: 16px;
+	transition: all 0.5s;
+	border-radius: 4px;
+}
+.fuckadoodle{
+    background-color: #ffffff;
+    height: 100vh;
+    min-height: 500px;
+background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23f9010c' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+body {
+    margin: 0;
+}
+.modal-w{
+width: 2000px !important;
+max-width: 800px !important;
+}
+#frame {
+    width: 330px;
+    height: 640px;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#innerFrame {
+    background: #5C5C5C !important;
+    width: inherit;
+    height: inherit;
+    border-radius: 2rem;
+}
+
+.front-camera {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    top: 2rem;
+    margin-left: 2rem;
+    border: 2px solid gray;
+}
+
+.front-speaker {
+    width: 4rem;
+    height: 8px;
+    background: grey;
+    border-radius: 4PX;
+    position: absolute;
+    top: 2.25rem;
+    margin-left: 7.8rem;
+}
+
+.light-sensor {
+    width: 1.5rem;
+    height: 15px;
+    background: black;
+    border-radius: 2rem;
+    position: absolute;
+    margin-left: 15rem;
+    top: 2rem;
+}
+.toptext{
+    z-index: 1000;
+}
+#screen {
+    width: 320px;
+    height: 560px;
+    background-image: url("https://cdn.ifaketextmessage.com/convos/2019/05/iphone-WfMr.png");
+    background-position: center;
+    background-size: 320px 560px;
+  
+    position: absolute;
+    top: 3.6rem;
+    margin-left: 5px;
+}
+
+.home-menu.cat1 {
+    width: 1rem;
+}
+
+.div1.home-menu.cat1 {
+    transform: translate(20px, 2px) rotate(-25deg);
+}
+
+.div2.home-menu.cat1 {
+    transform: translate(33px, 2px) rotate(25deg);
+}
+
+.div3.home-menu.cat1 {
+    transform: translate(44px, -3.5px);
+    width: 2px;
+    height: 0.40rem;
+}
+
+.div4.home-menu {
+    transform: translate(23px, 4px);
+    width: 2px;
+    height: 0.6rem;
+}
+
+.div5.home-menu {
+    transform: translate(44px, 4px);
+    width: 2px;
+    height: 0.6rem;
+}
+
+.div6.home-menu {
+    transform: translate(23px, 14px);
+    width: 1.439rem;
+    height: 2px;
+}
+
+.home-menu {
+    position: absolute;
+    top: 38.5rem;
+    background: white;
+    width: 2px;
+    height: 1.7px;
+    margin-left: 7.5rem;
+}
+
+#option-button .menu {
+    width: 1.6rem;
+    height: 2px;
+    margin-left: 2.5rem;
+    position: absolute;
+    background: white;
+}
+
+.menu.stack1 {
+    top: 38.5rem;
+}
+
+.menu.stack2 {
+    top: 39rem;
+    width: 1.2rem !important;
+    margin-left: 2.87rem !important;
+}
+
+.menu.stack3 {
+    top: 39.5rem;
+    width: 1.2rem !important;
+    margin-left: 2.87rem !important;
+}
+
+#back-nav-button>div {
+    margin-left: 15.5rem;
+    top: 39rem;
+    position: absolute;
+    width: 2rem;
+    height: 2px;
+    background: white;
+    border-radius: 2px;
+}
+
+.arrow-head.stack1 {
+    transform: translate(0px, -3px) rotate(-19deg);
+    width: 0.9rem !important;
+}
+
+.arrow-head.stack2 {
+    transform: translate(0px, 3px) rotate(19deg);
+    width: 0.9rem !important;
+}
+
+.arrow-shaft {
+    width: 1.6rem !important;
+}
+
+#back-nav-button>div.arrow.tail {
+    transform: translate(23px, 2px) rotate(45deg);
+    width: 0.4rem !important;
+}
+
+.volume-up {
+    width: 5px;
+    height: 5.5rem;
+    position: absolute;
+    margin-left: 20.58rem;
+    /*background: slategrey;*/
+    background: #9E9E9E;
+    top: 5rem;
+    border-top-right-radius: 3.5px;
+    border-bottom-right-radius: 3.5px;
+}
+
+.power-button {
+    width: 5px;
+    height: 3rem;
+    position: absolute;
+    margin-left: 20.58rem;
+    background: #9E9E9E;
+    top: 12rem;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.button-bottom{
+    text-align: justify;
+    padding-top: 120vh;
+    color: red;
+}
+#sortable-list		{ padding:0; }
+#sortable-list li	{ padding:4px 8px; color:#000; cursor:move; list-style:none; width:500px; background:#ddd; margin:10px 0; border:1px solid #999; }
+#message-box		{ background:#fffea1; border:2px solid #fc0; padding:4px 8px; margin:0 0 14px 0; width:500px; }
+
+#sortable-list1		{ padding:0; }
+#sortable-list1 li	{ padding:4px 8px; color:#000; cursor:move; list-style:none; width:500px; background:#ddd; margin:10px 0; border:1px solid #999; }
+.textbox{
+    height: 6rem;
+    width: 100%;
+}
+.boat{
+    display: block !important;
+}
+#snow {
+    background-color: transparent;
+    background-image: url(http://wp.agens.no/smakebit/wp-content/themes/smakebiten/img/snow1.png), url(http://wp.agens.no/smakebit/wp-content/themes/smakebiten/img/snow2.png) !important;
+    -webkit-animation: snow 20s linear infinite !important;
+    -moz-animation: snow 20s linear infinite !important;
+    -ms-animation: snow 20s linear infinite !important;
+    animation: snow 20s linear infinite !important;
+	z-index: 999;
+	right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+	margin-top: 0;
+	pointer-events: none;
+	position: absolute;
+}
+
+/*Keyframes*/
+
+@keyframes snow { 
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+
+    100% { background-position: 500px 1000px, 400px 400px, 300px 300px }
+}
+
+@-moz-keyframes snow { 
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+
+    100% { background-position: 500px 1000px, 400px 400px, 300px 300px }
+}
+
+@-webkit-keyframes snow { 
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+
+@-ms-keyframes snow { 
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+
+    100% { background-position: 500px 1000px, 400px 400px, 300px 300px }
+}
+
+ .dots{
+background-color: #990000;
+color: white;
+/* background by SVGBackgrounds.com */
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='100' viewBox='0 0 600 100'%3E%3Cg stroke='%23ff0000' stroke-width='0' stroke-miterlimit='10' %3E%3Ccircle fill='%237b0000' cx='0' cy='0' r='50'/%3E%3Ccircle fill='%23de0000' cx='100' cy='0' r='50'/%3E%3Ccircle fill='%23ff5555' cx='200' cy='0' r='50'/%3E%3Ccircle fill='%23750000' cx='300' cy='0' r='50'/%3E%3Ccircle fill='%23af1010' cx='400' cy='0' r='50'/%3E%3Ccircle fill='%23ffffff' cx='500' cy='0' r='50'/%3E%3Ccircle fill='%237b0000' cx='600' cy='0' r='50'/%3E%3Ccircle cx='-50' cy='50' r='50'/%3E%3Ccircle fill='%23ab0003' cx='50' cy='50' r='50'/%3E%3Ccircle fill='%23f03531' cx='150' cy='50' r='50'/%3E%3Ccircle fill='%23990000' cx='250' cy='50' r='50'/%3E%3Ccircle fill='%23910709' cx='350' cy='50' r='50'/%3E%3Ccircle fill='%23e49280' cx='450' cy='50' r='50'/%3E%3Ccircle fill='%23c88677' cx='550' cy='50' r='50'/%3E%3Ccircle cx='650' cy='50' r='50'/%3E%3Ccircle fill='%237b0000' cx='0' cy='100' r='50'/%3E%3Ccircle fill='%23de0000' cx='100' cy='100' r='50'/%3E%3Ccircle fill='%23ff5555' cx='200' cy='100' r='50'/%3E%3Ccircle fill='%23750000' cx='300' cy='100' r='50'/%3E%3Ccircle fill='%23af1010' cx='400' cy='100' r='50'/%3E%3Ccircle fill='%23ffffff' cx='500' cy='100' r='50'/%3E%3Ccircle fill='%237b0000' cx='600' cy='100' r='50'/%3E%3Ccircle cx='50' cy='150' r='50'/%3E%3Ccircle cx='150' cy='150' r='50'/%3E%3Ccircle cx='250' cy='150' r='50'/%3E%3Ccircle cx='350' cy='150' r='50'/%3E%3Ccircle cx='450' cy='150' r='50'/%3E%3Ccircle cx='550' cy='150' r='50'/%3E%3C/g%3E%3C/svg%3E");
+}
+.formw{
+    background-color: white;
+    height: 100%;
+    color: black;
+    border-left: 5px gray solid;
+    border-right: 5px gray solid;
+}
+.dropweight{
+    height: 75px !important;
+}
+
+@media only screen and (min-device-width: 400px) {
+  .phone { 
+     display: block;
+  }
+  .dropweight{
+      height: 100px !important;
+  }
+  .dots{
+background-color: #990000;
+background-size: contain;
+color: white;
+/* background by SVGBackgrounds.com */
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='100' viewBox='0 0 600 100'%3E%3Cg stroke='%23ff0000' stroke-width='0' stroke-miterlimit='10' %3E%3Ccircle fill='%237b0000' cx='0' cy='0' r='50'/%3E%3Ccircle fill='%23de0000' cx='100' cy='0' r='50'/%3E%3Ccircle fill='%23ff5555' cx='200' cy='0' r='50'/%3E%3Ccircle fill='%23750000' cx='300' cy='0' r='50'/%3E%3Ccircle fill='%23af1010' cx='400' cy='0' r='50'/%3E%3Ccircle fill='%23ffffff' cx='500' cy='0' r='50'/%3E%3Ccircle fill='%237b0000' cx='600' cy='0' r='50'/%3E%3Ccircle cx='-50' cy='50' r='50'/%3E%3Ccircle fill='%23ab0003' cx='50' cy='50' r='50'/%3E%3Ccircle fill='%23f03531' cx='150' cy='50' r='50'/%3E%3Ccircle fill='%23990000' cx='250' cy='50' r='50'/%3E%3Ccircle fill='%23910709' cx='350' cy='50' r='50'/%3E%3Ccircle fill='%23e49280' cx='450' cy='50' r='50'/%3E%3Ccircle fill='%23c88677' cx='550' cy='50' r='50'/%3E%3Ccircle cx='650' cy='50' r='50'/%3E%3Ccircle fill='%237b0000' cx='0' cy='100' r='50'/%3E%3Ccircle fill='%23de0000' cx='100' cy='100' r='50'/%3E%3Ccircle fill='%23ff5555' cx='200' cy='100' r='50'/%3E%3Ccircle fill='%23750000' cx='300' cy='100' r='50'/%3E%3Ccircle fill='%23af1010' cx='400' cy='100' r='50'/%3E%3Ccircle fill='%23ffffff' cx='500' cy='100' r='50'/%3E%3Ccircle fill='%237b0000' cx='600' cy='100' r='50'/%3E%3Ccircle cx='50' cy='150' r='50'/%3E%3Ccircle cx='150' cy='150' r='50'/%3E%3Ccircle cx='250' cy='150' r='50'/%3E%3Ccircle cx='350' cy='150' r='50'/%3E%3Ccircle cx='450' cy='150' r='50'/%3E%3Ccircle cx='550' cy='150' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  }
+  .masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-color: #ffffff;
+}
+.lines{
+    background-color: #38353B;
+    background-size: 210%;
+background-attachment: fixed;
+background-position: left; 
+}
+.lines h2{
+    color: white;
+}
+}
+.color-white{
+color: white;
+    
+}
+.marge{
+    margin: 8px;
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-color: #ffffff;
+}
+
+.masthead-admin {
+  min-height: 100vh;
+  /*background-image: url('./img/photo.jfif');*/
+}
+.bump{
+    height: 100vh;
+}
+.tanks{
+    background-color: green !important;
+}
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
+	border-color: #F40000;
+}
+.textc{
+	margin-top: 11rem;
+	background-color: #FFFFFF;
+}
+blockquote{
+	font-size: 19px;
+}
+.linkit {
+	float: left;
+	padding: 23px;
+	background-color: #F3E2AD;
+	border-left: 5px double #e8d3a4;
+	border-right: 5px double #e8d3a4;
+	border-bottom: 5px double #E2C88F;
+	border-top: 5px double #e8d3a4;
+	border-radius: 21px;
+	max-width: 190px;
+	margin-right: 18px;
+}
+hr{
+    background-color: red;
+}
+
+.sky{
+	height: 300%;
+	z-index: -100000000000000000000000000000000000;
+}
+
+.teksti {
+	margin-top: 11px;
+	padding: 15px;
+	color: #B61717;
+}
+
+
+body {
+
+	font-family: 'Kanit', sans-serif;
+	background-color: #FAFAF9;
+}
+
+.kaikki {
+	margin-left: auto;
+	margin-right: auto;
+	}
+a {
+	text-decoration: none;
+	color: #AF000;
+	font-weight: bold;
+	font-style: italic;
+	border-color: undefined;
+}
+a:hover {
+	text-decoration: underline;
+	color: #86131c;
+}
+h2 {
+	margin-top: -5px;
+	margin-bottom: -1px;
+	font-variant: small-caps;
+	font-size: 40px;
+	font-weight: 500;
+}
+h1 {
+	font-size: 6rem;
+	font-family: 'Kanit', sans-serif;
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: 0.75rem;
+}
+
+.login,
+.image {
+  min-height: 75vh;
+}
+
+.bg-image {
+  background-image: url('https://ichef.bbci.co.uk/images/ic/960x540/p0593sfj.jpg');
+  background-size: cover;
+}
+.bg-black-trans{
+    background-color: rgba(0,0,0,0.5);
+    
+}
+.login-heading {
+  font-weight: 300;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  padding: 0.75rem 1rem;
+  border-radius: 2rem;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.form-label-group>input,
+.form-label-group>label {
+  padding: var(--input-padding-y) var(--input-padding-x);
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.form-label-group>label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #495057;
+  cursor: text;
+  /* Match the input under the label */
+  border: 1px solid transparent;
+  border-radius: .15rem;
+  transition: all .1s ease-in-out;
+}
+.btn-primary{
+    background-color: #AF0000 !important;
+    border-color: #AF0000 !important;
+}
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+  padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-label-group input:not(:placeholder-shown)~label {
+  padding-top: calc(var(--input-padding-y) / 3);
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  font-size: 12px;
+  color: #777;
+}
+
+
+
+
+@media (max-width: 800px){
+.linkit {
+	float: none;
+	width: 100%;
+	max-width: none;
+}
+
+
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin: 8px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #f32121;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #f32121;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+
+.position-absolute {
+    position: absolute;
+}
+th, td {
+    padding: 8px;
+}
+tr:nth-child(2n) {
+    background-color: #fcfcfc;
+}
+tr:nth-child(2n + 1) {
+    background-color: #F0F0F0;
+}
+
+.width-100 {
+    width: 100%;
+}
+.container-radio {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container-radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container-radio:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container-radio input:checked ~ .checkmark {
+  background-color: #f32121;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container-radio input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container-radio .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.sidenav {
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a, .sidenav p {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.main {
+    margin-left: 150px;
+}
+.text-white {
+    color: #c9c9c9 !important;
+}
+.padding-none {
+    padding: 0px 0px 0px 16px !important;
+    margin: 0 !important;
+}
+.bg-white {
+    background-color: #d9d9d9;
+}
+.text-red {
+    color: #f32121;
+}
+.text-green {
+    color: #35d835;
+}
